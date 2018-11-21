@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CouponX</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="facebook_app_id">679734225730852</string>
+    <string name="fb_login_protocol_scheme">fb679734225730852</string>
+
+    <!--google client id-->
+    <string name="server_client_id">1040436758261-psvroo5nooibrbb26snuid38gedncda2.apps.googleusercontent.com</string>
+</resources>

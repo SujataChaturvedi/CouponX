@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#90000000"
+    tools:context=".JoinedClubSplashActivity">
+
+
+        <ImageView
+            android:id="@+id/image_tick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/green_tick"/>
+
+                <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorLightGreen"
+            android:paddingTop="10dp"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="Coupon with code "/>
+
+        <TextView
+            android:id="@+id/coupon_code_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:text="xyz"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorLightGreen"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="redeemed successfully !"/>
+</LinearLayout>
